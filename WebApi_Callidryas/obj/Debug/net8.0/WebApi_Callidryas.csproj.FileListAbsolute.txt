@@ -118,3 +118,4 @@ c:\Users\Paula\Desktop\Proyecto\WebApi_Callidryas\WebApi_Callidryas\bin\Debug\ne
 c:\Users\Paula\Desktop\Proyecto\WebApi_Callidryas\WebApi_Callidryas\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 c:\Users\Paula\Desktop\Proyecto\WebApi_Callidryas\WebApi_Callidryas\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 c:\Users\Paula\Desktop\Proyecto\WebApi_Callidryas\WebApi_Callidryas\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+c:\Users\Paula\Desktop\Proyecto\WebApi_Callidryas\WebApi_Callidryas\obj\Debug\net8.0\WebApi_Callidryas.sourcelink.json

@@ -61,6 +61,8 @@ builder.Services.Configure<AppSettings>(appSettingsSeccion);
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddScoped<IDriverRepository, DriverRepository>();
+builder.Services.AddScoped<IMicroRepository, MicroRepository>();
+builder.Services.AddScoped<IDriverVehicleCheckRepository, DriverVehicleCheckRepository>();
 
 
 

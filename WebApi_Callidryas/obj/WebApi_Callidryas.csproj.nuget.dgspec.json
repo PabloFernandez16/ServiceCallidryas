@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Paula\\Desktop\\Proyecto\\WebApi_Callidryas\\WebApi_Callidryas\\WebApi_Callidryas.csproj": {}
+    "c:\\Users\\Paula\\Desktop\\Proyecto\\WebApi_Callidryas\\WebApi_Callidryas\\WebApi_Callidryas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Paula\\Desktop\\Proyecto\\WebApi_Callidryas\\WebApi_Callidryas\\WebApi_Callidryas.csproj": {
+    "c:\\Users\\Paula\\Desktop\\Proyecto\\WebApi_Callidryas\\WebApi_Callidryas\\WebApi_Callidryas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Paula\\Desktop\\Proyecto\\WebApi_Callidryas\\WebApi_Callidryas\\WebApi_Callidryas.csproj",
+        "projectUniqueName": "c:\\Users\\Paula\\Desktop\\Proyecto\\WebApi_Callidryas\\WebApi_Callidryas\\WebApi_Callidryas.csproj",
         "projectName": "WebApi_Callidryas",
-        "projectPath": "C:\\Users\\Paula\\Desktop\\Proyecto\\WebApi_Callidryas\\WebApi_Callidryas\\WebApi_Callidryas.csproj",
+        "projectPath": "c:\\Users\\Paula\\Desktop\\Proyecto\\WebApi_Callidryas\\WebApi_Callidryas\\WebApi_Callidryas.csproj",
         "packagesPath": "C:\\Users\\Paula\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Paula\\Desktop\\Proyecto\\WebApi_Callidryas\\WebApi_Callidryas\\obj\\",
+        "outputPath": "c:\\Users\\Paula\\Desktop\\Proyecto\\WebApi_Callidryas\\WebApi_Callidryas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Paula\\AppData\\Roaming\\NuGet\\NuGet.Config",
