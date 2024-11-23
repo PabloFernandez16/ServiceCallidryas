@@ -11,5 +11,5 @@ public partial class Driver
 
     public string DriverLastName { get; set; } = null!;
 
-    public virtual ICollection<DriverVehicleCheck> DriverVehicleChecks { get; set; } = new List<DriverVehicleCheck>();
+    //public virtual ICollection<DriverVehicleCheck> DriverVehicleChecks { get; set; } = new List<DriverVehicleCheck>();
 }

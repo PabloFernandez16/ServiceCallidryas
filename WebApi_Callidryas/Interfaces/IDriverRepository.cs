@@ -13,5 +13,4 @@ public interface IDriverRepository{
     Task<Response> AddAsync(DriverDTO model);
     Task<Response> UpdateAsync(DriverDTO model, int Id);
     Task<Response> DeleteAsync(int Id);
-
 }

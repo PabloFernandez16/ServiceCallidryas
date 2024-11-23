@@ -1,5 +1,6 @@
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using MySqlConnector;
 using WebApi_Callidryas.Data;
 using WebApi_Callidryas.Interfaces;
 using WebApi_Callidryas.Models;
@@ -11,12 +12,14 @@ namespace WebApi_Callidryas.Repository
     public class DriverRepository : IDriverRepository {
         private readonly CallidryasDbContext _dbContext;
         private readonly IMapper _mapper;
+        
 
         public DriverRepository(CallidryasDbContext dbContext, IMapper mapper) {
             _dbContext = dbContext;
             _mapper = mapper;
         }
 
+    
         public async Task<Response> GetAsync() {
             Response oResponse = new Response();
 
@@ -168,7 +171,6 @@ namespace WebApi_Callidryas.Repository
             return oResponse;
         }
 
-
         // Método en el repositorio para eliminar un registro de Driver
         public async Task<Response> DeleteAsync(int Id) {
             var oResponse = new Response();
@@ -198,4 +200,6 @@ namespace WebApi_Callidryas.Repository
         }
 
     }
+
+    
 }

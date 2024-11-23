@@ -9,15 +9,18 @@ namespace WebApi_Callidryas
     {
         public MappingProfile()
         {
-            // Configura el mapeo entre Driver y DriverDTO
-            CreateMap<Driver, DriverDTO>()
-                .ForMember(dest => dest.DriverName, opt => opt.MapFrom(src => src.DriverName))
-                .ForMember(dest => dest.DriverLastName, opt => opt.MapFrom(src => src.DriverLastName));
+            CreateMap<DriverDTO, Driver>();
 
-            // Configura el mapeo inverso
-            CreateMap<DriverDTO, Driver>()
-                .ForMember(dest => dest.DriverName, opt => opt.MapFrom(src => src.DriverName))
-                .ForMember(dest => dest.DriverLastName, opt => opt.MapFrom(src => src.DriverLastName));
+
+            // // Configura el mapeo entre Driver y DriverDTO
+            // CreateMap<Driver, DriverDTO>()
+            //     .ForMember(dest => dest.DriverName, opt => opt.MapFrom(src => src.DriverName))
+            //     .ForMember(dest => dest.DriverLastName, opt => opt.MapFrom(src => src.DriverLastName));
+
+            // // Configura el mapeo inverso
+            // CreateMap<DriverDTO, Driver>()
+            //     .ForMember(dest => dest.DriverName, opt => opt.MapFrom(src => src.DriverName))
+            //     .ForMember(dest => dest.DriverLastName, opt => opt.MapFrom(src => src.DriverLastName));
 
                 // Configura el mapeo entre Micro y MicroDTO
             CreateMap<Micro, MicroDTO>()

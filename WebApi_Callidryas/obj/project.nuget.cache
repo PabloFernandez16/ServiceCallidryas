@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rpu5Cw5NnBY=",
+  "dgSpecHash": "Tmqe6Aha3Dk=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Paula\\Desktop\\Proyecto\\WebApi_Callidryas\\WebApi_Callidryas\\WebApi_Callidryas.csproj",
+  "projectFilePath": "C:\\Users\\Paula\\Desktop\\Proyecto\\WebApi_Callidryas\\WebApi_Callidryas\\WebApi_Callidryas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paula\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Paula\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

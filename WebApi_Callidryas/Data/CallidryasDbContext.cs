@@ -82,10 +82,10 @@ public partial class CallidryasDbContext : DbContext
             entity.Property(e => e.Trash).HasDefaultValueSql("'0'");
             entity.Property(e => e.WaterLevel).HasDefaultValueSql("'0'");
 
-            entity.HasOne(d => d.Driver).WithMany(p => p.DriverVehicleChecks)
-                .HasForeignKey(d => d.DriverId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("DriverVehicleCheck_ibfk_1");
+            // entity.HasOne(d => d.Driver).WithMany(p => p.DriverVehicleChecks)
+            //     .HasForeignKey(d => d.DriverId)
+            //     .OnDelete(DeleteBehavior.ClientSetNull)
+            //     .HasConstraintName("DriverVehicleCheck_ibfk_1");
 
             entity.HasOne(d => d.Micro).WithMany(p => p.DriverVehicleChecks)
                 .HasForeignKey(d => d.MicroId)

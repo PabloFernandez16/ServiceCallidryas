@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApi_Callidryas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9234992e00c9d0588a87e9506c82a6e540d11686")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7555ac11725c7e3b93ade46dc8ae48349fefd297")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApi_Callidryas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApi_Callidryas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
